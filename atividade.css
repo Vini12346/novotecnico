@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.topo {
+  background: blue;
+  height: 100px;
+  display: flex;
+}
+
+.terco-esquerdo {
+  width: 33.33%;   /* 1/3 do topo isolado no canto esquerdo */
+  background: red;
+  color: white;
+  padding: 10px;
+}
+
+.restante-topo {
+  width: 66.66%;   /* O restante do topo (2/3) */
+  background: green;
+  color: white;
+  padding: 10px;
+}
+
+.divisoria {
+  background: black;
+  width: 9px; /* Divisória entre as colunas */
+}
+
+.menu {
+  background: purple;
+  height: 60px;
+}
+
+.conteudo {
+  display: flex;
+  height: 400px;
+  background: rgb(60, 60, 255);
+}
+
+.esquerda, .direita {
+  flex: 1;
+  padding: 10px;
+}
+
+.rodape {
+  background: darkblue;
+  height: 80px;
+}

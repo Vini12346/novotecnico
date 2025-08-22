@@ -1,0 +1,46 @@
+/* Tira a margem padrão e coloca fonte básica */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+/* TOPO BEM AZULZÃO */
+.topo {
+  background: blue;
+  height: 100px;
+  padding: 10px;
+}
+
+/* MENU COM ROXO FORTE PRA DOER O OLHO */
+.menu {
+  background: purple;
+  height: 60px;
+  padding: 10px;
+}
+
+/* ÁREA PRINCIPAL DO SITE */
+.conteudo {
+  background: rgb(60, 60, 255); /* azul elétrico */
+  height: 400px;
+  display: flex;               /* necessário pra alinhar lado-esquerdo/divisoria/lado-direito */
+}
+
+/* LADO ESQUERDO E DIREITO DA TELA */
+.esquerda, .direita {
+  flex: 1;         /* Ocupa metade cada */
+  padding: 10px;
+}
+
+/* DIVISÓRIA PRETA GROSSA NO MEIO */
+.divisoria {
+  width: 20px;      /* grossura da faixa preta */
+  background: black;
+}
+
+/* RODAPÉ ESCURO PRA FINALIZAR */
+.rodape {
+  background: darkblue;
+  height: 80px;
+  padding: 10px;
+}
